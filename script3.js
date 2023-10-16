@@ -10,7 +10,15 @@ function convert() {
     
     output.innerText = "The answer is " + answer;
     
-    output.style.color = "red";
+   
+    if (isNaN(inputValue)) { 
+  
+         alert("Not a Number!"); 
+  
+         output.innerText = "Invalid Entry!"; 
+  
+     }
+
 }
 
 
