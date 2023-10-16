@@ -9,6 +9,14 @@ function convert() {
     let output = document.getElementById("answer");
     
     output.innerText = "The answer is " + answer;
+
+    if (isNaN(inputValue)) {
+        
+        alert("Not a Number!");
+
+        output.innerText = "Invalid Entry!";
+        
+    }
 }
 
 
